@@ -23,7 +23,7 @@ RUN pip3 install --install-option="--prefix=/install" --prefer-binary -r /tmp/re
 FROM base
 RUN apk add libxslt
 COPY --from=builder /install /usr/local
-COPY crawl_tutsplus_categories /app/crawl_tutsplus_categories
+COPY scrap_goodreads_qoutes /app/scrap_goodreads_qoutes
 COPY scrapy.cfg /app/scrapy.cfg
 
 WORKDIR /app

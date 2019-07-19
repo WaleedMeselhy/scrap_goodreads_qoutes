@@ -89,5 +89,5 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-MONGO_URL = 'mongodb://localhost:27017'
+MONGO_URL = 'mongodb://mongo:27017'
 MONGO_DB = 'goodreads'
