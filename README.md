@@ -27,6 +27,7 @@
 
 ```sh
 $ cd scrap_goodreads_qoutes
+$ docker run --network=host --name some-mongo -d mongo
 $ scrapy crawl goodreades -o txt.json
 ```
 
