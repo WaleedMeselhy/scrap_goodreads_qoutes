@@ -4,11 +4,10 @@ from scrapy.loader import ItemLoader
 from scrap_goodreads_qoutes.items import QuoteItem
 
 class GoodreadesSpider(scrapy.Spider):
+    # identity
     name = 'goodreads'
 
-
-
-     # request
+    # request
     def start_requests(self):
         # urls = [
         #     'https://www.goodreads.com/quotes?page=1',
