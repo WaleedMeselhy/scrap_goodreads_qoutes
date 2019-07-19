@@ -28,4 +28,4 @@ COPY scrapy.cfg /app/scrapy.cfg
 
 WORKDIR /app
 ENTRYPOINT [ "scrapy" ]
-CMD [ "crawl" , "goodreades"]
+CMD [ "crawl" , "goodreads"]

@@ -4,7 +4,7 @@ from scrapy.loader import ItemLoader
 from scrap_goodreads_qoutes.items import QuoteItem
 
 class GoodreadesSpider(scrapy.Spider):
-    name = 'goodreades'
+    name = 'goodreads'
 
 
 
